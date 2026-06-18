@@ -1,0 +1,51 @@
+.exp {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.bola {
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+.cont_exp {
+    flex: 1;
+    color: white;
+}
+
+.empresa_fecha {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.empresa {
+    font-size: 12px;
+    color: rgb(140, 138, 138);
+    margin: 0;
+    padding-bottom: 5px;
+}   
+
+.cargo {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+
+.descripcion_trabajo {
+    font-size: 14px;
+    width: 100%;
+    line-height: 1.4;
+}
+
+.Cargo_empresa{
+    border-bottom: 1px solid rgb(140, 138, 138);
+    width: 80%  ; 
+}

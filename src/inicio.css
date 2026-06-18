@@ -1,0 +1,101 @@
+.content_inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.content_image img{
+    width: 70%;
+    margin: 0;
+    border-radius: 999px;
+}
+
+.content_image{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 70%;
+}
+
+.content_descripcion{
+    padding-left: 2.5rem;
+}
+
+.content_redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+.btn_redes button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 6px;
+    background-color: rgb(27, 26, 26);
+    border: none;
+    padding: 5px;
+    border: 1px solid rgb(103, 102, 102); 
+    border-radius: 8px;
+    transition: transform 0.1s ease-in-out 0.1s;
+}
+
+.btn_redes button:hover{
+    background-color: rgb(103, 102, 102); 
+    border: 1px solid rgb(27, 26, 26);
+    transform: scale(0.9);
+}
+
+.btn_redes button:focus{
+    transform: translate(0,0);
+}
+
+.logos{
+    width: 18%;
+}
+
+.btn_redes button{
+    color: white;
+}
+
+.btn_redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: row;
+}
+
+.lgo{
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.descripcion{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+}
